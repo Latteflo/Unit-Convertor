@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Conversion</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <div class="container">
+    <div class="container-gradient">
+      <div class="units-focus">
+        <h1>
+          <label>Metric/Imperial unit conversion</label>
+          <br />
+          <input id="input" type="number" placeholder="Input a number" />
+          <button type="button" onclick="getInputValue();">Convert</button>
+        </h1>
+        <p id="inputNr" class="nr-input">0</p>
+      </div>
+    </div>
+    <div class="units-box">
+      <div class="units">
+        <h2>Lenght(Meter/Feet)</h2>
+        <p id="lenght">0 meters = 0.000 feet | 0 feet=0.000 meters</p>
+      </div>
+      <div class="units">
+        <h2>Volume(Liters/Gallons)</h2>
+        <p id="volume">0 liters=0.000 gallons | 0 gallons=0.000 liters</p>
+      </div>
+      <div class="units">
+        <h2>Mass(Kilograms/Pounds)</h2>
+        <p id="mass">0 kilos=0.000 pounds | 0 pounds=0.000 kylos</p>
+      </div>
+    </div>
+  </div>
+  <small>
+    <a href="https://github.com/Latteflo/Unit-Convertor">
+      Open Source code made my Florentina Simion
+    </a></small
+  >
+  <body>
+    <script src="index.js"></script>
+  </body>
+</html>

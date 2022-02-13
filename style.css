@@ -1,0 +1,117 @@
+body {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+}
+p {
+  color: #d2d2d2;
+  text-align: center;
+}
+.container {
+  width: 550px;
+  height: 550px;
+  left: 89px;
+  background: #1f2937;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+.container-gradient {
+  height: 260px;
+  width: 550px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+}
+.units-focus {
+  height: 215px;
+  width: 346px;
+  left: 102px;
+  top: 297px;
+}
+.units-box {
+  text-align: center;
+  height: 230px;
+  width: 550px;
+}
+.units {
+  height: 55px;
+  width: 550px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+h1 {
+  color: #ffffff;
+  height: 38px;
+  width: 550px;
+  height: 38px;
+  left: 51px;
+  top: 53px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  margin: 0;
+}
+
+.nr-input {
+  color: #ffffff;
+  width: 550px;
+  height: 51px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 97px;
+  line-height: 25%;
+  text-align: center;
+  margin: 0;
+  padding-top: 28px;
+}
+input {
+  padding: 8px;
+  font-size: 23px;
+  border-width: 1px;
+  border-color: #de35d3;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(196, 187, 187, 0.42);
+}
+input:focus {
+  outline: none;
+}
+button {
+  box-shadow: 0px 0px 0px 2px #d99ef0;
+  background: linear-gradient(to bottom, #c278c0 5%, #9c4699 100%);
+  background-color: #c278c0;
+  border-radius: 10px;
+  border: 1px solid #904d94;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 22px;
+  padding: 11px 30px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+}
+button:hover {
+  background: linear-gradient(to bottom, #9c4699 5%, #c278c0 100%);
+  background-color: #9c4699;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+a {
+  width: 550px;
+  text-align: center;
+  color: blueviolet;
+}
